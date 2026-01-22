@@ -1,10 +1,11 @@
 package pac1;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 public class ContactTest {
+	
 	@Test
-	public void createcontactTest() {
+	public void createcontactTest(){
 		String URL=System.getProperty("url");
 		String BROWSER=System.getProperty("browser");
 		String USERNAME=System.getProperty("username");
@@ -17,7 +18,7 @@ public class ContactTest {
 		System.out.println("execute createcontactTest");
 	}
 @Test
-public void modifycontactTest() {
+public void modifycontactTest(){
 	System.out.println("execute modifycontactTest");
 }
 }

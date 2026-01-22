@@ -1,6 +1,6 @@
 package pac2;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 public class OrgTest {
 	@Test
